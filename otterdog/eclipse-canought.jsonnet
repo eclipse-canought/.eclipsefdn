@@ -10,6 +10,8 @@ orgs.newOrg('eclipse-canought') {
     },
   },
   _repositories+:: [
+    orgs.newRepo('.github') {
+    },
     orgs.newRepo('can-translator-client') {
       allow_merge_commit: true,
       allow_update_branch: false,
