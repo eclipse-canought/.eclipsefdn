@@ -12,6 +12,13 @@ orgs.newOrg('eclipse-canought') {
   _repositories+:: [
     orgs.newRepo('.github') {
     },
+    orgs.newRepo('can-manager') {
+      allow_merge_commit: true,
+      allow_update_branch: false,
+      delete_branch_on_merge: false,
+      description: "can-translator",
+      web_commit_signoff_required: false,
+    },
     orgs.newRepo('can-translator') {
       allow_merge_commit: true,
       allow_update_branch: false,
