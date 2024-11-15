@@ -26,6 +26,20 @@ orgs.newOrg('eclipse-canought') {
       description: "can-translator",
       web_commit_signoff_required: false,
     },
+    orgs.newRepo('up-cpp-client') {
+      allow_merge_commit: true,
+      allow_update_branch: false,
+      delete_branch_on_merge: false,
+      description: "uProtocol C++ client for CAN Translator",
+      web_commit_signoff_required: false,
+    },
+    orgs.newRepo('up-cpp-server') {
+      allow_merge_commit: true,
+      allow_update_branch: false,
+      delete_branch_on_merge: false,
+      description: "uProtocol C++ server for CAN Translator",
+      web_commit_signoff_required: false,
+    },
     orgs.newRepo('can-translator-client') {
       allow_merge_commit: true,
       allow_update_branch: false,
