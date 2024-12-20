@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-canought') {
+orgs.newOrg('iot.kanto.canought', 'eclipse-canought') {
   settings+: {
     description: "",
     name: "Eclipse Canought",
